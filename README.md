@@ -27,6 +27,7 @@ Merancang dan mengimplementasikan database relasional untuk sistem **Point of Sa
 
 ## 📁 Project Structure
 
+```text
 multistore-POS-database/
 │
 ├── Business Analysis/
@@ -43,6 +44,7 @@ multistore-POS-database/
 │   └── input-data.sql
 │
 └── README.md
+```
 
 ## 📊 Business Analysis
 
