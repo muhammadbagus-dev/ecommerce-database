@@ -1,21 +1,60 @@
 # Multi-Store POS Database
 
-> **Dummy Project** — Project latihan untuk mempraktikkan perancangan dan implementasi database sistem **Point of Sale (POS) multi-toko**.
+> **Dummy Project** — Project untuk merancang dan mengimplementasikan database sistem **Point of Sale (POS) multi-toko** menggunakan database relasional.
 
 ## 📌 Project
 
-Project ini mencakup:
+Project ini berfokus pada perancangan dan implementasi database untuk sistem POS multi-toko.
 
-- Analisis dan perancangan kebutuhan sistem POS
-- Perancangan database menggunakan diagram
-- Implementasi struktur database menggunakan SQL
+Tahapan project meliputi:
 
-## 🛠️ Tools
-
-- **Microsoft Excel** — perancangan dan pengolahan data
-- **DataGrip** — implementasi dan pengujian SQL
-- **Git & GitHub** — version control dan dokumentasi project
+* Analisis kebutuhan database
+* Perancangan struktur tabel dan relasi antar tabel
+* Implementasi database menggunakan SQL
+* Pengisian data untuk kebutuhan pengujian
+* Analisis data menggunakan query SQL
 
 ## 🎯 Tujuan
 
-Membangun database POS yang terstruktur berdasarkan kebutuhan sistem, kemudian menerapkannya ke dalam database relasional menggunakan SQL.
+Merancang dan mengimplementasikan database relasional untuk sistem **Point of Sale (POS) multi-toko** menggunakan SQL.
+
+## 🛠️ Tools
+
+* **Microsoft Excel** — perancangan struktur tabel dan pengolahan data
+* **DataGrip** — implementasi dan pengujian database menggunakan MySQL
+* **Git & GitHub** — version control dan dokumentasi project
+* **Draw.io** — desain data model diagram
+
+## 📁 Project Structure
+
+multistore-POS-database/
+│
+├── Business Analysis/
+│   └── business_analysis.sql
+│
+├── Design/
+│   ├── conceptual_data_model.png
+│   ├── data_dictionary.xlsx
+│   ├── logical_data_model.png
+│   └── physical_data_model.png
+│
+├── SQL/
+│   ├── create-database.sql
+│   └── input-data.sql
+│
+└── README.md
+
+## 📊 Business Analysis
+
+Beberapa pertanyaan bisnis yang dapat dianalisis menggunakan database:
+
+1. Berapa total penjualan pada setiap toko?
+2. Produk apa yang paling banyak terjual?
+3. Metode pembayaran apa yang paling sering digunakan?
+4. Berapa rata-rata nilai seluruh transaksi?
+5. Toko mana yang memiliki total penjualan tertinggi?
+6. Produk mana yang belum pernah terjual?
+
+## 🚧 Project Status
+
+**Completed**
